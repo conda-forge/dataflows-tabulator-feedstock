@@ -1,5 +1,5 @@
 {% set name = "dataflows-tabulator" %}
-{% set version = "1.54.1" %}
+{% set version = "1.54.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dataflows-tabulator-{{ version }}.tar.gz
-  sha256: c1f4c105735b0a8c5bedbffa4df412ae4009aaec51574100c0ffdf2192095336
+  sha256: fc87953d208f184043604e5dce2ab6766617241918859980129b2703d16c0683
 
 build:
   entry_points:
